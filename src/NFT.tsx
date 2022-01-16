@@ -10,8 +10,9 @@ const NFT: FC<{ url: string, mint: string }> = ({ url, mint }) => {
         fetch(url)
             .then(res => res.json())
             .then(data => {
+                console.log(data);
                 changeName(data.name);
-                changeImageUri(data.url);
+                changeImageUri(data.uri);
             });
     }, []);
 

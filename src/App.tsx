@@ -4,7 +4,7 @@ import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 import React, { FC, useState, useEffect } from 'react';
 
 import { NFT } from './NFT';
-import { SKIN_TOKENS, NFTs } from '../skins';
+import { SKIN_TOKENS, NFTs } from './skins';
 
 // Default styles
 require('@solana/wallet-adapter-react-ui/styles.css');
